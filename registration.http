@@ -1,0 +1,20 @@
+
+### Register a student for a course
+POST http://localhost:8088/registration/student/1/course/11
+Content-Type: application/json
+
+
+### Try registering the same student twice
+POST http://localhost:8088/registration/student/1/course/1
+Content-Type: application/json
+
+###get registration
+GET http://localhost:8088/registration/student/1
+
+### Cancel a registration
+DELETE http://localhost:8088/registration/1
+
+### Register student 1 for course 1 again
+POST http://localhost:8088/registration/student/1/course/11
+###
+POST http://localhost:8088/registration/student/1/course/1

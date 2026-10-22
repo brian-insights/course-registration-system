@@ -1,0 +1,19 @@
+
+### Create a student
+POST http://localhost:8088/student
+Content-Type: application/json
+
+{
+    "regNo": "ST04",
+    "name": "Jimmy jay",
+    "email": "jimmay@gmail.com"
+}
+
+### Get all students
+GET http://localhost:8088/student
+
+### Get a student by ID
+GET http://localhost:8088/student/1
+
+###Delete student
+DELETE  http://localhost:8088/student/4

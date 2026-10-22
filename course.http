@@ -1,0 +1,14 @@
+###register a course
+POST http://localhost:8088/course
+Content-Type: application/json
+
+{
+    "code": "SMA335",
+    "title": "ORDINARY DIFFERENTIAL EQUATIONS",
+    "creditHours": 3,
+    "capacity": 7
+}
+
+
+###retrieve all students
+GET http://localhost:8088/course/11
